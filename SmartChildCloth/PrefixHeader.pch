@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  SmartChildCloth
+//
+//  Created by Kitty on 16/11/15.
+//  Copyright © 2016年 Kitty. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+
+#import "BaseViewController.h"
+#import "MainNavigationController.h"
+#import "LoginViewController.h"
+#import "MainViewController.h"
+#import "LeftMenuViewController.h"
+
+#import "TZImagePickerController.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "AFNetworking.h"
+#import "SVProgressHUD.h"
+#import "MJRefresh.h"
+#import "RESideMenu.h"
+#import "Masonry.h"
+#import "SSKeychain.h"
+#import "JKEncrypt.h"
+#import "YYKit.h"
+
+
+#import "UITableView+HYBCacheHeight.h"
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+
+
+#import "GeTuiSdk.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <MapKit/MapKit.h>
+
+#import "UIImage+ALinExtension.h"
+#import "NSObject+ALinHUD.h"
+#import "UIView+Frame.h"
+#import "UIView+Toast.h"
+
+#import "AppDefaultUtil.h"
+#import "GLDateUtils.h"
+#import "ColorTools.h"
+#import "Constant.h"
+#import "NetWork.h"
+
+
+#endif /* PrefixHeader_pch */
